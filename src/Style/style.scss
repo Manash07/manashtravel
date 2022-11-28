@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Lato&family=Mukta:wght@300&family=Varela+Round&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+header {
+  width: 100%;
+
+  .navbar {
+    width: 100%;
+    background: #003a56;
+
+    a {
+      color: aliceblue;
+    }
+
+    li {
+      list-style-type: none;
+    }
+
+    i {
+      font-size: 18px;
+      margin-left: 10px;
+      margin-right: 10px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .fb:hover {
+      color: #b1c6ff;
+    }
+
+    .gog:hover {
+      color: red;
+    }
+
+    .lk:hover:hover {
+      color: #c3c7ff;
+    }
+
+    .tw:hover {
+      color: #2de7fc;
+    }
+
+    .yt:hover {
+      color: #ff0909;
+    }
+
+    .btn {
+      color: white;
+      background: #003a56;
+      border: 1px solid #2de7fc;
+
+      &:hover {
+        background: white;
+        color: #003a56;
+      }
+    }
+  }
+}
+
+.navigation-second {
+  .navbar {
+    background: #011e2c;
+
+    a {
+      color: white;
+
+      &:hover {
+        color: #b1c6ff;
+      }
+    }
+  }
+}
+
+/***************************************************************************************************/
+
+/******************************** FOOTER *********************************************/
+
+footer {
+  .affiliation {
+    color: white;
+    background: #011e2c;
+    text-align: center;
+    
+
+    img {
+      width: 120px;
+      height: 100px;
+    }
+  }
+}
+
+.second-footer {
+  .sfo {
+    background: #003a56;
+    color: white;
+
+    .aff {
+      margin-top: -2px;
+    }
+  }
+
+  p:hover {
+    color: orange;
+    cursor: pointer;
+  }
+
+  input {
+    width: 15rem;
+    font-size: 12px;
+  }
+
+  .trn {
+    color: orange;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+/************************* MID SECTION ******************************************/
+
+.midsecond {
+  background: white;
+
+  color: #011e2c;
+
+
+  h5 {
+    color: #ff0909;
+    font-weight: bold;
+  }
+
+  h4 {
+    color: orangered;
+    font-weight: bold;
+  }
+
+  .ca {
+    .chact {
+      .card {
+        color: #011e2c;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 10rem;
+        height: 10rem;
+        background: none;
+        border: none;
+        background: white;
+        align-items: center;
+        animation: canm 2s linear 2s infinite;
+        cursor: pointer;
+
+        
+       
+        
+      }
+
+      @keyframes canm {
+        0%,
+        from {
+          border: 2px solid red;
+          transform: scale(1.1);
+        }
+
+        50% {
+          border: 1px solid #003a56;
+          transform: scale(0.7);
+        }
+
+        100%,
+        to {
+          border: 3px solid red;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+ 
+}
+
+.midthird {
+
+    background: #003a56;
+    color: white;
+    
+    .swiper-scrollbar-drag{
+
+      background: white;
+      
+    }
+    
+  .card {
+
+  
+
+    cursor: pointer;
+    background: #003a56;
+    border: 3px solid white;
+    width: 20rem;
+    
+
+    &:hover{
+
+      border: 3px solid red;
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+
+    .card-footer{
+
+      background: rgba(0,0,0,0.5);     
+      width: 16rem;
+      padding: 0;
+      margin: 0;
+
+    
+
+      h5{
+
+        color: wheat;
+
+
+      }
+
+      
+    }
+   
+
+  
+  }
+
+
+}
+
+.midfourth{
+
+  background: #003a56;
+  color: white;
+
+  .card {
+
+  
+
+  
+    background: #003a56;
+    border: 3px solid #ff0909;
+
+    &:hover{
+
+     
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+
+    .card-body{
+
+      align-items: center;
+       
+    }
+
+    .card-footer{
+
+      width: 16rem;
+      padding: 0;
+      margin: 0;
+
+      h5{
+
+        color: white;
+      }
+        p{  
+          color: white;
+        }
+        background: rgba(0,0,0,0.5);
+      
+       
+    }
+
+
+ 
+  }
+  .swiper-button-next{
+
+    color: white;
+}
+.swiper-button-prev{
+
+    color: white;
+}
+}
+
+
+/*********************** DETAILS ************************************************/
+
+.detail-one{
+
+    background: #003a56;
+    color: white;
+
+    
+    
+
+    .card-footer{
+
+    
+      width: 100%;
+      
+      border: 3px solid white;
+     
+      
+      h5{
+
+        margin-top: 20px;
+
+        animation: detanm 4s ease 2s infinite;
+      }
+
+    }
+
+      @keyframes detanm {
+
+        0%, from{color: #ffe0e0;}
+        20%{color:#2de7fc;}
+        60%{color:white;}
+        80%{color:#b1c6ff;}
+        100%, to{color: #ff9d9d;}
+        
+      }
+
+    
+
+          .trc{
+
+            color: bisque;
+          }
+
+          .si{
+
+            color: rgb(37, 255, 37);
+          }
+
+          .bi-pencil-fill{
+
+            color: #ff0909;
+          }
+
+          h3{
+
+            color: #b1c6ff;
+          }
+    }
+
+
+.detail-two{
+
+  background: #003a56;
+  color: white;
+
+  .bi-train-front{
+
+    color: #2de7fc;
+
+    animation: tanm 2s ease-in-out 2s infinite;
+  }
+
+    @keyframes tanm {
+
+      0%, from{color: #ff0909;}
+      20%{color: #2de7fc;}
+      40%{color: #c3c7ff;}
+      60%{color: #ff0909; transform: scale(1.2);}
+      80%{color: #2de7fc;}
+      87%{color: red; transform:scale(1.1);}
+      100%{color: #2de7fc;}
+      
+    }
+
+}
+

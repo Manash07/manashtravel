@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Lato&family=Mukta:wght@300&family=Varela+Round&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  width: 100%;
+}
+header .navbar {
+  width: 100%;
+  background: #003a56;
+}
+header .navbar a {
+  color: aliceblue;
+}
+header .navbar li {
+  list-style-type: none;
+}
+header .navbar i {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  cursor: pointer;
+}
+header .navbar .fb:hover {
+  color: #b1c6ff;
+}
+header .navbar .gog:hover {
+  color: red;
+}
+header .navbar .lk:hover:hover {
+  color: #c3c7ff;
+}
+header .navbar .tw:hover {
+  color: #2de7fc;
+}
+header .navbar .yt:hover {
+  color: #ff0909;
+}
+header .navbar .btn {
+  color: white;
+  background: #003a56;
+  border: 1px solid #2de7fc;
+}
+header .navbar .btn:hover {
+  background: white;
+  color: #003a56;
+}
+
+.navigation-second .navbar {
+  background: #011e2c;
+}
+.navigation-second .navbar a {
+  color: white;
+}
+.navigation-second .navbar a:hover {
+  color: #b1c6ff;
+}
+
+/***************************************************************************************************/
+/******************************** FOOTER *********************************************/
+footer .affiliation {
+  color: white;
+  background: #011e2c;
+  text-align: center;
+}
+footer .affiliation img {
+  width: 120px;
+  height: 100px;
+}
+
+.second-footer .sfo {
+  background: #003a56;
+  color: white;
+}
+.second-footer .sfo .aff {
+  margin-top: -2px;
+}
+.second-footer p:hover {
+  color: orange;
+  cursor: pointer;
+}
+.second-footer input {
+  width: 15rem;
+  font-size: 12px;
+}
+.second-footer .trn {
+  color: orange;
+}
+.second-footer .trn:hover {
+  color: red;
+}
+
+/************************* MID SECTION ******************************************/
+.midsecond {
+  background: white;
+  color: #011e2c;
+}
+.midsecond h5 {
+  color: #ff0909;
+  font-weight: bold;
+}
+.midsecond h4 {
+  color: orangered;
+  font-weight: bold;
+}
+.midsecond .ca .chact .card {
+  color: #011e2c;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 10rem;
+  height: 10rem;
+  background: none;
+  border: none;
+  background: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: canm 2s linear 2s infinite;
+          animation: canm 2s linear 2s infinite;
+  cursor: pointer;
+}
+@-webkit-keyframes canm {
+  0%, from {
+    border: 2px solid red;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  50% {
+    border: 1px solid #003a56;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  100%, to {
+    border: 3px solid red;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+@keyframes canm {
+  0%, from {
+    border: 2px solid red;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  50% {
+    border: 1px solid #003a56;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  100%, to {
+    border: 3px solid red;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+.midthird {
+  background: #003a56;
+  color: white;
+}
+.midthird .swiper-scrollbar-drag {
+  background: white;
+}
+.midthird .card {
+  cursor: pointer;
+  background: #003a56;
+  border: 3px solid white;
+  width: 20rem;
+}
+.midthird .card:hover {
+  border: 3px solid red;
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.midthird .card .card-footer {
+  background: rgba(0, 0, 0, 0.5);
+  width: 16rem;
+  padding: 0;
+  margin: 0;
+}
+.midthird .card .card-footer h5 {
+  color: wheat;
+}
+
+.midfourth {
+  background: #003a56;
+  color: white;
+}
+.midfourth .card {
+  background: #003a56;
+  border: 3px solid #ff0909;
+}
+.midfourth .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+.midfourth .card .card-body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.midfourth .card .card-footer {
+  width: 16rem;
+  padding: 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.midfourth .card .card-footer h5 {
+  color: white;
+}
+.midfourth .card .card-footer p {
+  color: white;
+}
+.midfourth .swiper-button-next {
+  color: white;
+}
+.midfourth .swiper-button-prev {
+  color: white;
+}
+
+/*********************** DETAILS ************************************************/
+.detail-one {
+  background: #003a56;
+  color: white;
+}
+.detail-one .card-footer {
+  width: 100%;
+  border: 3px solid white;
+}
+.detail-one .card-footer h5 {
+  margin-top: 20px;
+  -webkit-animation: detanm 4s ease 2s infinite;
+          animation: detanm 4s ease 2s infinite;
+}
+@-webkit-keyframes detanm {
+  0%, from {
+    color: #ffe0e0;
+  }
+  20% {
+    color: #2de7fc;
+  }
+  60% {
+    color: white;
+  }
+  80% {
+    color: #b1c6ff;
+  }
+  100%, to {
+    color: #ff9d9d;
+  }
+}
+@keyframes detanm {
+  0%, from {
+    color: #ffe0e0;
+  }
+  20% {
+    color: #2de7fc;
+  }
+  60% {
+    color: white;
+  }
+  80% {
+    color: #b1c6ff;
+  }
+  100%, to {
+    color: #ff9d9d;
+  }
+}
+.detail-one .trc {
+  color: bisque;
+}
+.detail-one .si {
+  color: rgb(37, 255, 37);
+}
+.detail-one .bi-pencil-fill {
+  color: #ff0909;
+}
+.detail-one h3 {
+  color: #b1c6ff;
+}
+
+.detail-two {
+  background: #003a56;
+  color: white;
+}
+.detail-two .bi-train-front {
+  color: #2de7fc;
+  -webkit-animation: tanm 2s ease-in-out 2s infinite;
+          animation: tanm 2s ease-in-out 2s infinite;
+}
+@-webkit-keyframes tanm {
+  0%, from {
+    color: #ff0909;
+  }
+  20% {
+    color: #2de7fc;
+  }
+  40% {
+    color: #c3c7ff;
+  }
+  60% {
+    color: #ff0909;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  80% {
+    color: #2de7fc;
+  }
+  87% {
+    color: red;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    color: #2de7fc;
+  }
+}
+@keyframes tanm {
+  0%, from {
+    color: #ff0909;
+  }
+  20% {
+    color: #2de7fc;
+  }
+  40% {
+    color: #c3c7ff;
+  }
+  60% {
+    color: #ff0909;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  80% {
+    color: #2de7fc;
+  }
+  87% {
+    color: red;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    color: #2de7fc;
+  }
+}/*# sourceMappingURL=style.css.map */
