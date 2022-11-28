@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/manashtravel/static/css/main.a5bdc588.css",
+    "main.js": "/manashtravel/static/js/main.7b7c25cf.js",
+    "static/js/787.a878afe9.chunk.js": "/manashtravel/static/js/787.a878afe9.chunk.js",
+    "static/media/logo.svg": "/manashtravel/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/manashtravel/index.html",
+    "main.a5bdc588.css.map": "/manashtravel/static/css/main.a5bdc588.css.map",
+    "main.7b7c25cf.js.map": "/manashtravel/static/js/main.7b7c25cf.js.map",
+    "787.a878afe9.chunk.js.map": "/manashtravel/static/js/787.a878afe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5bdc588.css",
+    "static/js/main.7b7c25cf.js"
+  ]
+}
